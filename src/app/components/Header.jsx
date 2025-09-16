@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 
 const Header = () => {
     return (
-        <header className='fixed bg-white shadow-md w-full'>
+        <header className='fixed shadow-xs bg-white/30 backdrop-blur-md w-full'>
             <div className='flex justify-between items-center px-6 py-4'>
                 <h1 className='text-black text-4xl font-serif'>Manas P.</h1>
                 <nav className='space-x-6  hidden md:flex'>

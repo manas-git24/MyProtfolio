@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <section
       id='home'
-      className='pt-40 md:pt-10 px-6 min-h-screen flex flex-col justify-center items-center 
+      className='pt-10 md:pt-10 px-6 min-h-screen flex flex-col justify-center items-center 
       bg-gradient-to-br from-blue-100 via-white to-pink-100'
     >
 
@@ -28,7 +28,7 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className='mt-10 md:mt-30 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl text-center md:text-left'>
+      <div className='hidden md:mt-30 md:grid  md:grid-cols-3 gap-10 w-full max-w-7xl text-center md:text-left'>
         <div className='space-y-2'>
           <h3 className='text-black font-bold text-lg'>Frontend Development</h3>
           <p className='text-gray-500'>Responsive apps with React and TailwindCSS.</p>
